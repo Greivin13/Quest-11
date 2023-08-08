@@ -4,19 +4,15 @@
 A simple note-taking app that allows users to create, view, and delete notes. The app is designed to be a web application, likely running on a server using Node.js and Express.
 ## Deployed Application URL
 
-https://quest-11-notes-7737e21ea119.herokuapp.com
-https://github.com/Greivin13/Quest-11
+https://github.com/Greivin13/Quest-11-note-taker
   ## Table of Contents
   * [Features](#features)
   * [Languages & Dependencies](#languagesanddependencies)
   * [How to Use This Application](#HowtoUseThisApplication)
 
   ## Features
-- Update/Edit Notes: Allow users to edit the content of existing notes. This would require adding an "Edit" button to each note in the list and implementing an update functionality on the server.
-
- - User Authentication: Implement user authentication and authorization to allow multiple users to have their separate sets of notes. Users should be able to sign up, log in, and access their own notes securely.
-
- - Trash/Archive: Provide an option to move notes to a "Trash" or "Archive" section instead of directly deleting them. This would allow users to recover accidentally deleted notes.
+- POST Notes: Allow users to post new notes 
+- DELETE Notes: Provide an option to delete old notes
 
   ## Languages & Dependencies
   ### Back-End Dependencies
